@@ -1,0 +1,13 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="13.9"/>
+
+    <route id="rNS" edges="N2J J2S"/>
+    <route id="rSN" edges="S2J J2N"/>
+    <route id="rEW" edges="E2J J2W"/>
+    <route id="rWE" edges="W2J J2E"/>
+
+    <flow id="fNS" type="car" route="rNS" begin="0" end="3600" vehsPerHour="700"/>
+    <flow id="fSN" type="car" route="rSN" begin="0" end="3600" vehsPerHour="700"/>
+    <flow id="fEW" type="car" route="rEW" begin="0" end="3600" vehsPerHour="450"/>
+    <flow id="fWE" type="car" route="rWE" begin="0" end="3600" vehsPerHour="450"/>
+</routes>

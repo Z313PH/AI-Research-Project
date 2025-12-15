@@ -1,0 +1,2 @@
+controller,minutes,co2_total_mg,fuel_total_ml,queue_sum,delay_sum
+fixed_time_30s_toggle,5,24987616.693087425,7970003.048916989,1248.0,9872.0
